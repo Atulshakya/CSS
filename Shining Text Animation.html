@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Shining Text animation effect</title>
@@ -13,6 +14,7 @@
             height: 100vh;
             background-color: #000000;
         }
+        
         p {
             position: relative;
             font-family: Impact, sans-serif;
@@ -25,6 +27,7 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: rgba(255, 255, 255, 0);
         }
+        
         @keyframes animate {
             0% {
                 background-position: -500%;
@@ -33,12 +36,23 @@
                 background-position: 500%;
             }
         }
-
-
-
+        
+        footer {
+            color: #fff;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
     </style>
 </head>
+
 <body>
-<p id="effect">Shining Text Animation Effect</p>
+    <p id="effect">Shining Text Animation Effect</p>
+    <footer>Designed and developed by <a href="http://www.deepakshakya.tech" style="text-decoration: none; color: #fff;">Deepak Shakya</a></footer>
 </body>
+
 </html>
